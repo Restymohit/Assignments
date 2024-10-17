@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <style>
+        body{
+            background-color: rgb(198, 64, 78);
+        }
+        .form {
+            width:50%;
+            margin:auto;
+            padding: 10%;
+            background-color: #f2f2f2;
+            border-radius: 10px;
+            border: 2px solid rgb(81, 56, 56);
+        }
+        input[type="submit"]{
+            background-color: rgb(80, 170, 80);
+            margin:0 auto;
+            border-radius: 5px;
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h2>Feedback Form</h2>
+        <lable>Select Feedback Type:</lable>
+    <select name = "feedbackType" >
+        <option>General feedback type</option>
+    </select>
+    <h3>Message</h3>
+    <textarea placeholder="Write message here"></textarea>
+    <h3>Rate out Website</h3>
+    <input type="radio">
+    <lable>Excellent</lable>
+    <input type="radio">
+    <lable>Good</lable>
+    <input type="radio">
+    <lable>Average</lable>
+    <input type="radio">
+    <lable>Poor</lable>
+    <br>
+    <br>
+    <lable>Enter your age: </lable>
+    <input type="number" min="10" max="100">
+    <br>
+    <br>
+    <lable>Email</lable>
+    <input type="email">
+    <br>
+    <br>
+    <lable> Password</lable>
+    <input type="password" minlength="8" required>
+    <br>
+    <br>
+    <lable>Enter website URL</lable>
+    <input id="web" type="url" >
+    <br>
+    <br>
+    <input type="checkbox" required>
+    <lable>Agree to the terms and conditions</lable>
+    <br>
+    <input type="submit">
+    </div>
+
+</body>
+</html>
